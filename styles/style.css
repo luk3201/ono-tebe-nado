@@ -54,6 +54,7 @@
     padding-right: 35px;
 }
 .adress_item {
+    font-style: normal;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -342,7 +343,6 @@
     font-weight: 400;
     line-height: 21.13px;
     text-decoration-skip-ink: none;
-
 }
 
 .footer_social_list {
