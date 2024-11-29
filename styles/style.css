@@ -49,6 +49,7 @@
 
 .header_adress {
     display: flex;
+    flex-direction: column;
     justify-self: end;
     align-self: center;
     padding-right: 35px;
