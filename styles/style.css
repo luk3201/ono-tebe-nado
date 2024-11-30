@@ -47,13 +47,17 @@
     height: 105px;
 }
 
-.header_adress {
+.adress {
     display: flex;
     flex-direction: column;
-    justify-self: end;
     align-self: center;
     padding-right: 35px;
 }
+
+.header_adress {
+    justify-self: end;
+}
+
 .adress_item {
     font-style: normal;
     font-family: Raleway, sans-serif;
@@ -61,12 +65,12 @@
     font-weight: 400;
     line-height: 24.3px;
     text-align: left;
+    letter-spacing: 0.01em;
+    text-underline-position: under;
 }
 
-.telephone_num,.email {
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: under;
+.street_adress {
+    letter-spacing: 0em;
 }
 
 .cover {
@@ -80,6 +84,8 @@
 
 .overlay {
     position: absolute;
+    top: 0px;
+    left: 0px;
     background-color: #000000;
     width: 100%;
     height: 100%;
@@ -139,7 +145,7 @@
     padding-right: 50px;
 }
 
-.second_title {
+.slogan_title {
     position: relative;
     z-index: 3;
     color: #FFFFFF;
@@ -192,7 +198,6 @@
     flex: 1 0 334px;
     width: 100%;
     position: relative;
-    min-height: 560px;
 }
 
 .card_link {
@@ -326,7 +331,7 @@
     text-align: left;
 }
 
-.first_par {
+.letter_sp_par {
     letter-spacing: 0.01em;
 }
 
